@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<section id="cover">
+		<div id="cover-caption">
+			<div class="container">
+				<div class="col-sm-10 offset-sm-1">
+					<h1 class="display-2">Welcome to Bootstrap4</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores reiciendis suscipit nihil impedit nemo, illo animi voluptas quaerat unde, dolor quasi ratione totam amet! Repellat obcaecati, alias incidunt fuga beatae.</p>
+
+					<form class="form-inline justify-content-center">
+						<div class="form-group">
+							<input type="text" class="form-control form-control-lg mr-2" placeholder="Enter your name.">
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control form-control-lg mr-2" placeholder="Enter your email.">
+						</div>
+						<button class="btn btn-success btn-lg">okay, go!</button>
+					</form>
+
+					<br>
+
+					<a href="#nav-main" class="btn btn-outline-secondary btn-sm" role="button">&darr;</a>
+
+					
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark " id="nav-main">
+	  <a class="navbar-brand" href="#cover">Logo</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link active" href="#cover">Home <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#what-we-do">What we do</a>
+	      </li>
+	      
+	      <li class="nav-item">
+	        <a class="nav-link" href="#about-me">About me</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#latest-news">News</a>
+	      </li>
+	    </ul>
+	    <form class="form-inline my-2 my-lg-0">
+	      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	    </form>
+	  </div>
+	</nav>
+	<section id="carousel">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="img/woman-camera.jpg" alt="First slide">
+		      <div class="carousel-caption">
+		      	<h3>Women camera</h3>
+		      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, tempore.</p>
+		      </div>
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="img/hearthand.jpg" alt="Second slide">
+		      <div class="carousel-caption">
+		      	<h3>Heart Hand</h3>
+		      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, tempore.</p>
+		      </div>
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="img/spiderweb.jpg" alt="Third slide">
+		      <div class="carousel-caption">
+		      	<h3>Spider Web</h3>
+		      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, tempore.</p>
+		      </div>
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</section>
+
+	<section id="what-we-do">
+		<div class="section-content">
+			<div class="container">
+				<div class="col-sm-12">
+					<h3>What we do</h3>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus necessitatibus voluptatem quasi, odio vel sint nulla laborum repellendus alias molestiae aut praesentium maxime facere impedit, ex voluptatum illum nemo eligendi.</p>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="card-group">
+							<div class="card">
+							    <img class="card-img-top" src="img/chalkboard.jpg" alt="chalkboard">
+							    <div class="card-body">
+							    	<h5 class="card-title">Strategy & Planning</h5>
+
+							    	<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							    	<button class="btn btn-outline-info">Learn more</button>
+								</div>
+
+							</div>
+							<div class="card">
+							    <img class="card-img-top" src="img/working.jpg" alt="working">
+							    <div class="card-body">
+							    	<h5 class="card-title">Creative & Design</h5>
+							    	<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							    	<button class="btn btn-outline-info">Learn more</button>
+								</div>
+							</div>
+							<div class="card">
+							    <img class="card-img-top" src="img/programming.jpg" alt="programming">
+							    <div class="card-body">
+							    	<h5 class="card-title">Programming & Technical</h5>
+							    	<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							    	<button class="btn btn-outline-info">Learn more</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="about-me">
+		<div class="section-content">
+			<div class="container">
+				<div class="col-sm-6">
+					<div class="about-me-text">
+						<h3>About me</h3>
+						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum minima earum adipisci natus quis, nam eum sit quas. Minima nemo sint, neque possimus molestias, vel sunt velit obcaecati nostrum saepe!</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui porro aperiam esse doloremque omnis, quod autem, quos cumque nam repudiandae, impedit expedita mollitia reiciendis ea! Mollitia placeat consectetur voluptatum magnam?</p>
+						<h5>Follow us on web</h5>
+						<div class="btn btn-outline-secondary btn-md">facebook</div>
+						<div class="btn btn-outline-secondary btn-md">instagram</div>
+						<div class="btn btn-outline-secondary btn-md">youtube</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="latest-news">
+		<div class="section-content">
+			<div class="container">
+				<div class="col-sm-12">
+					<h3>Latest news</h3>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, ea assumenda veritatis optio voluptatem impedit esse consequuntur! Fugit temporibus doloribus, error, ducimus possimus tempore saepe ipsum id voluptatem aperiam blanditiis!</p>
+				</div>
+
+				<hr>
+
+				<div class="card-columns">
+				  <div class="card">
+				    <img class="card-img-top" src="img/woman-camera.jpg" alt="woman-camera">
+				    <div class="card-body">
+				      <h5 class="card-title">Card title that wraps to a new line</h5>
+				      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				    </div>
+				  </div>
+				  <div class="card p-3">
+				    <blockquote class="blockquote mb-0 card-body">
+				      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+				      <footer class="blockquote-footer">
+				        <small class="text-muted">
+				          Someone famous in <cite title="Source Title">Source Title</cite>
+				        </small>
+				      </footer>
+				    </blockquote>
+				  </div>
+				  <div class="card">
+				    <img class="card-img-top" src="img/stars.jpg" alt="starts">
+				    <div class="card-body">
+				      <h5 class="card-title">Card title</h5>
+				      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+				      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				    </div>
+				  </div>
+				  <div class="card bg-primary text-white text-center p-3">
+				    <blockquote class="blockquote mb-0">
+				      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+				      <footer class="blockquote-footer">
+				        <small>
+				          Someone famous in <cite title="Source Title">Source Title</cite>
+				        </small>
+				      </footer>
+				    </blockquote>
+				  </div>
+				  <div class="card text-center">
+				    <div class="card-body">
+				      <h5 class="card-title">Card title</h5>
+				      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+				      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				    </div>
+				  </div>
+				  <div class="card">
+				    <img class="card-img" src="img/computer.jpg" alt="Card image">
+				  </div>
+				  <div class="card p-3 text-right">
+				    <blockquote class="blockquote mb-0">
+				      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+				      <footer class="blockquote-footer">
+				        <small class="text-muted">
+				          Someone famous in <cite title="Source Title">Source Title</cite>
+				        </small>
+				      </footer>
+				    </blockquote>
+				  </div>
+				  <div class="card">
+				    <div class="card-body">
+				      <h5 class="card-title">Card title</h5>
+				      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+				      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				    </div>
+				  </div>
+				</div>
+
+				<hr>
+
+				<nav aria-label="Page navigation example">
+				  <ul class="pagination justify-content-center">
+				    <li class="page-item">
+				      <a class="page-link" href="#" aria-label="Previous">
+				        <span aria-hidden="true">&laquo;</span>
+				        <span class="sr-only">Previous</span>
+				      </a>
+				    </li>
+				    <li class="page-item"><a class="page-link" href="#">1</a></li>
+				    <li class="page-item"><a class="page-link" href="#">2</a></li>
+				    <li class="page-item"><a class="page-link" href="#">3</a></li>
+				    <li class="page-item">
+				      <a class="page-link" href="#" aria-label="Next">
+				        <span aria-hidden="true">&raquo;</span>
+				        <span class="sr-only">Next</span>
+				      </a>
+				    </li>
+				  </ul>
+				</nav>
+
+				
+
+			</div>
+		</div>
+	</section>
+	<footer id="footer-main">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<p>copyright 2018</p>
+					<p>coded by Julia</p>
+				</div>
+				<div class="col-sm-3">
+					<ul class="list-unstyled">
+						<li><a href="#cover">home</a></li>
+						<li><a href="#what-we-do">what we do</a></li>
+						<li><a href="#about-me">about me</a></li>
+						<li><a href="#latest-news">latest news</a></li>
+					</ul>
+					
+				</div>
+				<div class="col-sm-3">
+					<ul class="list-unstyled">
+						<li><a href="">facebook</a></li>
+						<li><a href="">instagram</a></li>
+						<li><a href="">youtube</a></li>
+						
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<p>small header</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem reprehenderit aspernatur at minus dignissimos a facilis fugiat quam! Illum nam tempora laboriosam a ullam laborum soluta incidunt esse maiores? Corporis.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="main.js"></script>
+	<script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
